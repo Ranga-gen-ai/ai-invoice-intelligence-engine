@@ -4,6 +4,14 @@ AI workflow system for automated invoice parsing, structured data extraction, an
 
 AI-powered invoice ingestion and structuring pipeline built using n8n, Groq LLM, and PostgreSQL (Supabase).
 
+## 🚀 What This Demonstrates
+
+- Practical LLM integration inside operational workflows
+- Deterministic structured extraction from unstructured documents
+- Relational schema design with foreign key integrity
+- Real-world automation architecture using n8n + PostgreSQL
+- Production-aware design (idempotency, latency logging)
+
 ## Overview
 
 This system ingests invoice PDFs, extracts text, converts unstructured invoice data into structured JSON using an LLM, and stores it in a relational database with proper header–line item integrity.
