@@ -21,7 +21,7 @@ The system is designed as an AI-assisted financial data ingestion layer for oper
 ---
 ### 1️⃣ Master Workflow View
 
-![1. Workflow](assets/workflow architecture.png)
+![1. Workflow](assets/workflow%20architecture.png)
 
 ## Architecture
 
@@ -127,15 +127,15 @@ but in this workflow have not captured metadata and kept it basic upto first two
 ---
 ### 2 Postman sending files to webhook listening
 
-![2. postman](assets/postman to send files.png)
+![2. postman](assets/postman%20to%20send%20files.png)
 
 ### 3 invoices table / line items tables with invoices data 
 
-![3.superbase postgre](assets/invoices table superbase.png)
+![3.superbase postgre](assets/invoices%20table%20superbase.png)
 
-![4.superbase postgre](assets/line items table superbase.png)
+![4.superbase postgre](assets/line%20items%20table%20superbase.png)
 ## Author
-MOHANARENGAN KRISHNARAJA
 
-AI Automation Engineer  
+**Mohanarengan Krishnaraja**  
+AI Automation Developer  
 Systems-focused workflow design & LLM integration
