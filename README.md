@@ -19,6 +19,9 @@ This system ingests invoice PDFs, extracts text, converts unstructured invoice d
 The system is designed as an AI-assisted financial data ingestion layer for operational workflows.
 
 ---
+### 1️⃣ Master Workflow View
+
+![1. Workflow](assets/workflow architecture.png)
 
 ## Architecture
 
@@ -122,7 +125,15 @@ but in this workflow have not captured metadata and kept it basic upto first two
 - Add retry/error handling queue
 
 ---
+### 2 Postman sending files to webhook listening
 
+![2. postman](assets/postman to send files.png)
+
+### 3 invoices table / line items tables with invoices data 
+
+![3.superbase postgre](assets/invoices table superbase.png)
+
+![4.superbase postgre](assets/line items table superbase.png)
 ## Author
 MOHANARENGAN KRISHNARAJA
 
